@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <title>Cytoscape Example to Expanding & collapsing edges in a network</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+  <script src="https://unpkg.com/layout-base/layout-base.js"></script>
+  <script src="https://unpkg.com/cose-base/cose-base.js"></script>
+  <script src="https://unpkg.com/cytoscape-cose-bilkent/cytoscape-cose-bilkent.js"></script>
+  <script src="https://unpkg.com/cytoscape-undo-redo/cytoscape-undo-redo.js"></script>
+  <script src="js/expand-collapse-logic.js"></script>
+  <script src="js/custom-scripts.js"></script>
+</head>
+
+<body>
+  <h1> Cytoscape Example to Expanding & collapsing edges in a network </h1>
+  <div class="wrap">
+    <div class="workspace-left">
+      <h4 class="m-b">Collapse / Expand edges between nodes</h4>
+      <button id="collapseAll" class="button e-b">Collapse all</button>
+      <button id="expandAll" class="button c-b">Expand all</button>
+      <br />
+      <br />
+      <h4 class="m-b">Collapse / Expand edges selected nodes</h4>
+      <p class="m-b">Select 2 or more nodes</p>
+      <button id="collapseEdgesBetweenNodes" class="button e-b">Collapse edges</button>
+      <button id="expandEdgesBetweenNodes" class="button c-b">Expand edges</button>
+      <br />
+    </div>
+    <div class="workspace-right" id="cy"></div>
+  </div>
+</body>
+
+</html>

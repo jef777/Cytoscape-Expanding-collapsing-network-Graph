@@ -1,0 +1,65 @@
+body {
+    font-family: helvetica neue, helvetica, liberation sans, arial, sans-serif;
+    font-size: 14px;
+  }
+
+
+
+  .workspace-left {
+    float: left;
+    width: 18%;
+    height: 95%;
+    padding: 10px 10px;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+  .workspace-right {
+    float: right;
+    height: 95%;
+    width: 80%;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+
+  #cy {
+    z-index: 99;
+
+
+  }
+
+  h1 {
+    opacity: 0.5;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .list-item {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .e-b {background-color: #a7ba00;}
+  .c-b {background-color: #ee6910;}
+
+  .m-b {
+    margin-bottom: 3px;
+    color: rgb(225, 237, 248);
+  }
