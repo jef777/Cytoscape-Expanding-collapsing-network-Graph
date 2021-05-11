@@ -1,8 +1,5 @@
 # Cytoscape-Expanding-collapsing-network-Graph
-Inline-style:
-![alt text](https://github.com/jef777/Cytoscape-Expanding-collapsing-network-Graph/images/collapse.png "Collapsed network")
 
-Reference-style:
-![alt text][logo]
+![alt text](/images/collapse.png?raw=true "Collapsed network")
 
-![alt text](https://github.com/jef777/Cytoscape-Expanding-collapsing-network-Graph/images/expand.png "Expanded network")
+![alt text](/images/expand.png?raw=true "Expanded network")
